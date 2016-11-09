@@ -12,6 +12,8 @@ def count_total(P, x, y):
 
 
 def passing_cars(A):
+    """Passing cars...
+    """
     total = 0
     for i in range(len(A)):
         if A[i] != 0:
@@ -21,7 +23,7 @@ def passing_cars(A):
             if A[j] == 1:
                 print ("({0}, {1})".format(i, j))
                 total += 1
-                
+
     return total
 
 
