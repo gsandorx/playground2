@@ -35,6 +35,10 @@ def foo():
     print("bar.com")
 
 
+def call_ftr1():
+    print("Calling feature1")
+
+
 if __name__ == '__main__':
     #A = [2, 6, 2, 7, 5, 9]
     A = [0, 1, 0, 1, 1]
