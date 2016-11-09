@@ -31,6 +31,13 @@ def passing_cars(A):
     return total
 
 
+<<<<<<< HEAD
+=======
+def foo():
+    print("bar.com")
+    
+
+>>>>>>> 9e2ea83cfa0d08aa309a007704b2fe555c109334
 if __name__ == '__main__':
     #A = [2, 6, 2, 7, 5, 9]
     A = [0, 1, 0, 1, 1]
