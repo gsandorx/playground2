@@ -1,5 +1,7 @@
 
 def prefix_sum(A):
+    """Prefix Sums: bla bla bla....
+    """
     n = len(A)
     P = [0] * (n + 1)
 
@@ -8,6 +10,8 @@ def prefix_sum(A):
     return P
 
 def count_total(P, x, y):
+    """Count Total: bla bla bla
+    """
     return P[y + 1] - P[x]
 
 
@@ -25,7 +29,6 @@ def passing_cars(A):
                 total += 1
 
     return total
-
 
 
 if __name__ == '__main__':
